@@ -1,5 +1,6 @@
 import Appbar from '@/components/Appbar';
 import Button from '@/components/Button';
+import Main from '@/components/Main';
 import Image from 'next/image'
 
 async function loadPost ( ){
@@ -14,7 +15,7 @@ export default async function Home() {
 
   return (
    <div>
-    <Appbar/>
+  <Main />
     {/* LOGICA DEL COMPONENTE PADRE*/}
     {post.map((x) => (
     <h1 key={x.id}>{x.title}</h1>
