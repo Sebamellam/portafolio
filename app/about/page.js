@@ -24,6 +24,9 @@ const page = () => {
           NodeJS
           </p>
           <p>
+          Javascript
+          </p>
+          <p>
           Estamos aprendiendo sobre nuevas tecnologías como por ejemplo
           </p>
           <p>
