@@ -8,7 +8,7 @@ const Main = () => {
       <Image
         src="https://i.imgur.com/IMoapoY.png"
         alt=""
-        width={1000}
+        width={1200}
         height={200}
       />
     </div>

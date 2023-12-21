@@ -14,15 +14,9 @@ export default async function Home() {
   const post = await loadPost();
 
   return (
-   <div>
+   <div className="h-screen w-full flex flex-col  items-center justify-center">
   <Main />
-    {/* LOGICA DEL COMPONENTE PADRE*/}
-    {post.map((x) => (
-    <h1 key={x.id}>{x.title}</h1>
-  ))}
-    
-    {/* COMPONENTE HIJO*/}
-   <Button />
+   
    </div>
   )
   }
