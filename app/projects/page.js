@@ -6,6 +6,9 @@ import Image from 'next/image';
 const page = ({ imageUrl, text, button1Url, button2Url }) => {
   return (
     <div className="flex justify-center items-center space-x-8 p-8">
+      <div>
+        Estos son los proyectos que realice durante este año 2023(hecho para hormigas ojo)
+      </div>
       {/* Primera Columna - Imagen */}
       <div className="max-w-full h-auto rounded-md">
         <Image
